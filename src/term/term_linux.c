@@ -20,6 +20,7 @@ along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
 #include <unistd.h>
 #include <fcntl.h>
 //#include <wait.h>
+#include <sys/signal.h>
 #include <sys/wait.h>
 
 #define BUFSIZE 4096
